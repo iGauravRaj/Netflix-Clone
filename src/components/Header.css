@@ -1,0 +1,54 @@
+.nav__logo {
+    width: 148px;
+}
+  
+.header {
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(180deg, black, transparent);
+    z-index: 10;
+
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+
+    select {
+        background-color: #fff;
+        height: 32px;
+        width: 122px;
+        text-align: center;
+        background: rgba(0,0,0,.4);
+        border: 1px solid #aaa;
+        color: #fff;
+        font-size: .875rem;
+        font-weight: bold;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-right: 20px;
+        border-radius: 16px;
+    }
+
+    button {
+        background-color: white;
+        color: black;
+        font-size: .875rem;
+        font-weight: bold;
+        height: 2rem;
+        width: 4.75rem;
+        margin-right: 32px;
+
+        border: none;
+        border-radius: 16px;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: #BDB8B8;
+        /* transition: inherit; */
+        transition-duration: 250ms;
+        /* transition-property: background-color, border-color; */
+        transition-timing-function: cubic-bezier(0.4,0,0.68,0.06);
+    }
+}

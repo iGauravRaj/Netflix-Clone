@@ -1,0 +1,67 @@
+.home-banner{
+  height: 100vh;
+  overflow: hidden;
+  h1{
+    margin-bottom: 16px;
+    font-size: 3.125rem;
+  }
+  h2{
+    font-size: 1.625rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  .shadow{
+    background-color: rgba(0,0,0,.4);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  img{
+    max-width: 100%;
+  }
+  .banner-contents{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 40%;
+    width: 880px;
+    left: calc(50% - 440px);
+    z-index: 1;
+  }
+  .input-group{
+    input{
+      height: 52px;
+      width: 332px;
+      padding: .2rem 1rem;
+      margin-right: 0.5rem;
+      color: white;
+      font-size: large;
+      border-radius: 56px;
+      border: 0.1px solid white;
+      background-color: rgba(0,0,0,.4);
+    }
+
+    button{
+        background-color: #E50814;
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: .2rem 1.5rem;
+        height: 56px;
+        
+        border: none;
+        border-radius: 28px;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: #C11219;
+    }
+  }
+}
